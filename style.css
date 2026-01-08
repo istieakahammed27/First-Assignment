@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.font style {
+  font-style: "Open Sans", sans-serif;
+}
+button:hover {
+  background-color: rgb(6, 247, 247);
+}
 .id {
   display: flex;
   margin: 0 auto;
@@ -19,6 +25,7 @@
   border-radius: 4px;
   gap: 10px;
   border: none;
+  cursor: pointer;
 }
 .list {
   list-style: none;
@@ -26,5 +33,46 @@
   align-items: center;
   width: 360px;
   right: 24px;
+  line-height: 32px;
   gap: 32px;
+}
+.part2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 674px;
+  margin: 0 auto;
+  text-align: center;
+  background: url("./assets/hero-bg.png");
+  display: flex;
+  line-break: 9px;
+}
+.btn-green {
+  background-color: #30b868;
+  font-size: 16px;
+  padding: 12px 16px;
+  gap: 10px;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.btn-outline {
+  font-size: 16px;
+  padding: 12px 16px;
+  gap: 10px;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: auto;
+}
+.hi {
+  color: #30b868;
+  font-display: block;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 1000px;
 }
