@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.id {
+  display: flex;
+  margin: 0 auto;
+  width: 1600px;
+  height: 92px;
+  align-items: center;
+  justify-content: space-between;
+}
+.btm {
+  background-color: #30b868;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  gap: 10px;
+  border: none;
+}
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 360px;
+  right: 24px;
+  gap: 32px;
+}
