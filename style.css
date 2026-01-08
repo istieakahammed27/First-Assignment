@@ -47,7 +47,6 @@ button:hover {
   text-align: center;
   background: url("./assets/hero-bg.png");
   display: flex;
-  line-break: 9px;
 }
 .btn-green {
   background-color: #30b868;
