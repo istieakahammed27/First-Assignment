@@ -230,12 +230,13 @@ button:hover {
   font-size: 48px;
 }
 .note {
+  margin-top: 80px;
   margin: 0 auto;
   max-width: 1600px;
   align-items: center;
   line-height: 1.5;
   justify-items: center;
-  background-color: #ffffff;
+  color: #ffffff;
 }
 .social-container {
   margin: 0 auto;
